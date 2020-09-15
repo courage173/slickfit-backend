@@ -1,5 +1,5 @@
 # source: https://eu1.prisma.sh/courage-osemwengie/siccck-fits/dev
-# timestamp: Tue Sep 15 2020 08:49:12 GMT+0100 (West Africa Standard Time)
+# timestamp: Tue Sep 15 2020 20:57:41 GMT+0100 (West Africa Standard Time)
 
 type AggregateItem {
   count: Int!
@@ -44,8 +44,6 @@ input ItemCreateInput {
   image: String
   largeImage: String
   price: Int!
-  createdAt: DateTime!
-  updatedAt: DateTime!
 }
 
 """An edge in a connection."""
@@ -132,8 +130,6 @@ input ItemUpdateInput {
   image: String
   largeImage: String
   price: Int
-  createdAt: DateTime
-  updatedAt: DateTime
 }
 
 input ItemUpdateManyMutationInput {
@@ -142,8 +138,6 @@ input ItemUpdateManyMutationInput {
   image: String
   largeImage: String
   price: Int
-  createdAt: DateTime
-  updatedAt: DateTime
 }
 
 input ItemWhereInput {
